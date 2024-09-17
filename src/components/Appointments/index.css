@@ -1,0 +1,100 @@
+/* Write your CSS here */
+.appContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to top, #9796f0, #fbc7d4);
+  height: 100vh;
+  padding: 30px;
+}
+.appointmentContainer {
+  height: 70vh;
+  background-color: white;
+  border-radius: 10px;
+  width: 90vh;
+}
+
+.inputAndImgContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  font-family: Roboto;
+  width: 50%;
+}
+.headingEle {
+  color: black;
+  font-weight: bold;
+}
+.formContainer {
+  display: flex;
+  flex-direction: column;
+}
+.labelEle {
+  color: #b5b7c4;
+  margin: 4px;
+}
+.inputEle {
+  height: 40px;
+  width: 100%;
+  border: 2px solid black;
+  padding: 5px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+}
+.addBtn {
+  background-color: #8b5cf6;
+  height: 35px;
+  width: 20%;
+  color: white;
+  border: 0px;
+  border-radius: 8px;
+  margin: 5px;
+}
+.image {
+  width: 50%;
+  margin: 10px;
+}
+
+.hr {
+  width: 97%;
+}
+.appointments-starred-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+.starredBtn {
+  background-color: transparent;
+  border: 1px solid #9897f0;
+  color: #9897f0;
+  height: 35px;
+  width: 12%;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+.listContainer {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 768px) {
+  .image {
+    display: none;
+  }
+  .inputContainer {
+    width: 100%;
+  }
+  .listContainer {
+    flex-direction: column;
+  }
+}
